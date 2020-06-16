@@ -33,6 +33,12 @@ public class Main {
 		
 		long bigLong = 2_147_483_647_890L;
 		System.out.println(bigLong);
+		
+		// Casting
+		byte newByte = (byte) (myByteMaxValue / 2);
+		
+		short newShort = (short) (myShortMaxValue / 3);
+		
 	}
 
 }
