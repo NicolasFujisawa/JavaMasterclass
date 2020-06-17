@@ -3,6 +3,17 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 
+		/*
+		 * byte
+		 * char 
+		 * short
+		 * int
+		 * long
+		 * float
+		 * double
+		 * 
+		 * */
+		
 		char myChar = 'D';
 		
 		char myUnicode = '\u00A9';
@@ -11,6 +22,8 @@ public class HelloWorld {
 		System.out.println("My char: " + myChar);
 		System.out.println("My Unicode: " + myUnicode);
 		System.out.println("My Copyright: " + myString);
+		
+		
 	}
 
 }
